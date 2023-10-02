@@ -6,7 +6,8 @@
 
   ![cd](CSE15LA01-UD/lab1cd.png)
   ![ls](CSE15LA01-UD/lab1ls.png)
-  ![catmsg](CSE15LA01-UD/lab1catmsg.png)
+  ![catmsg](CSE15LA01-UD/lab1cat.png)
+  
 3. Path directory as argument:
   
 4. File as argument: 
