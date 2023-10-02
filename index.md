@@ -3,8 +3,10 @@
 ***
 # Lab Report 1
 1. No argument:
+  ![cd](CSE15LA01-UD/lab1cd.png)
+  ![ls](CSE15LA01-UD/lab1ls.png)
+  ![catmsg](CSE15LA01-UD/lab1catmsg.png)
+3. Path directory as argument:
   
-2. Path directory as argument:
-  
-3. File as argument: 
+4. File as argument: 
     
