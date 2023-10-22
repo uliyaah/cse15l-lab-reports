@@ -18,12 +18,12 @@ Part 3:
 # Lab Report 1
 1. No argument:
 
-    ![cd](CSE15LA01-UD/lab1cd.png)\
+    ![cd](CSE15LA01-UD/lab1cd.png)
 
     > Without an argument, cd remains in the same directory since its not given a directory to change to.
     > No error
 
-    ![ls](CSE15LA01-UD/lab1ls.png)\
+    ![ls](CSE15LA01-UD/lab1ls.png)
 
     > Without an argument, ls prints the files/folders in the current directory.
     > No error
@@ -34,12 +34,12 @@ Part 3:
 
 3. Path directory as argument:
 
-    ![cd](CSE15LA01-UD/lab1cdpath.png)\
+    ![cd](CSE15LA01-UD/lab1cdpath.png)
 
     > With a path directory as an argument, cd switches to the directory given.. In this case, messages.
     > No error
    
-    ![cd](CSE15LA01-UD/lab1lspath.png)\
+    ![cd](CSE15LA01-UD/lab1lspath.png)
 
     > With a path directory as an argument, ls prints the files/folders in the directory given, In this case, the files inside messages
     > No error
