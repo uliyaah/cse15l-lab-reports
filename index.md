@@ -4,7 +4,10 @@
 # Lab Report 2
 
 Part 1:
-
+    ![cd](media/Lab2Hello.png)
+    ![cd](media/Lab2HRU.png)
+    ![cd](media/Lab2Code.png)
+    
 
 Part 2:
 
@@ -44,13 +47,13 @@ Part 3:
     ![cd](CSE15LA01-UD/lab1catpath.png)
 
    > With a path directory as an argument, cat prints out that it is a directory.
-   > No error, since cat is meant for printing out the contents of a file.
+   > User error, since cat is meant for printing out the contents of a file but was given a path directory instead.
    
 5. File as argument: 
     
     ![cd](CSE15LA01-UD/lab1cdfile.png)
     > cd command is used for changing directories, a file is not a directory.
-    > Prints out what is expected but could possibly be considered a user error. 
+    > Prints out what is expected but could be considered a user error since cd is only meant for directories. 
 
     ![ls](CSE15LA01-UD/lab1lsfile.png)
 
