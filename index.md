@@ -42,4 +42,10 @@
     > Prints out what is expected but could possibly be considered a user error. 
 
     ![ls](CSE15LA01-UD/lab1lsfile.png)
+
+    > With a file as an argument, ls prints out the path to the file since it isn't a directory it doesn't have any contents to list out.
+    > Wouldn't consider it an error, it prints out what is expected.
+    
     ![catmsg](CSE15LA01-UD/lab1catfile.png)
+    > With a file as an argument, cat prints out the contents of the file.
+    > No error.
