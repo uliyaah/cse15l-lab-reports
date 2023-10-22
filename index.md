@@ -4,8 +4,8 @@
 # Lab Report 2
 
 Part 1:
-    ![cd](media/Lab2Hello.png)
     ![cd](media/Lab2HRU.png)
+    ![cd](media/Lab2Hello.png)
     ![cd](media/Lab2Code.png)
     
 
