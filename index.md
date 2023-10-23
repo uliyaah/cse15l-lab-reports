@@ -86,8 +86,8 @@ During week 2 was the first time I used ssh to connect to a remote server which 
     
     ![cd](CSE15LA01-UD/lab1cdfile.png)
     > Working Directory: lecture1\
-    > cd command is used for changing directories, a file is not a directory.\
-    > Error: Yes, cd is only meant for directories. 
+    > With a file as an argument, cd prints out a message and does not change directories since it was given a file as an argument.\
+    > Error: Yes, cd is only meant for changing directories.\
 
     ![ls](CSE15LA01-UD/lab1lsfile.png)
 
