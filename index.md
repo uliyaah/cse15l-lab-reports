@@ -3,20 +3,19 @@
 ***
 # Lab Report 2
 
-Part 1:
+Part 1:\
     ![cd](media/Lab2HRU.png)
-
-    
     ![cd](media/Lab2Hello.png)
-
-    
     ![cd](media/Lab2Code.png)
     
 
-Part 2:
+Part 2:\
+    ![cd](media/Lab2PrivKey.png)
+    ![cd](media/Lab2PubKey.png)
+    ![cd](media/Lab2Login.png)
 
-
-Part 3:
+Part 3:\
+    During week 2 was the first time I used git commands to access a remote server. I can see why this would be important to learn.
 
 
 ***
