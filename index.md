@@ -52,8 +52,36 @@
 ```
 The issue with the original code was that when it was reversing the array in place, it was only changing the value of the element the index was currently on, and not replacing the element at the opposite end witht the value of the current element.
 
-## Part 2
+## Part 2 - Researching Commands: grep
+***Command-line Options***
+```
+grep -i pattern filepath
+```
+![cd](media/Lab3-i.png)
+> Ignores case sensitivity which makes it easier to search for the pattern given if case does not matter.
 
+```
+grep -n pattern filepath
+```
+![cd](media/Lab3-n.png)
+> Includes the line number in the output so it is easier to find the text being searched in the file.
+```
+grep -m N pattern filepath
+```
+![cd](media/Lab3-mN.png)
+> Search stops after it reaches N number of matches, which is useful if you want to limit the amount of searches in a potentially large file.
+
+```
+grep -r pattern directory-or-file-path
+```
+![cd](media/Lab3-r.png)
+> Searches all files recursively from all of the directories in the given path, which is useful if you need to search multiple files at the same time for the same pattern or are unsure which file holds the pattern your looking for.
+
+***Citation*** \
+[20 Useful Grep Command Examples in Linux](https://www.linuxbuzz.com/grep-command-examples-linux/)
+
+
+***
 # Lab Report 2
 
 ## Part 1
