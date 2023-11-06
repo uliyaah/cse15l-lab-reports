@@ -1,6 +1,59 @@
 ## hi this is my site for CSE 15L!
 ![turtle](https://th.bing.com/th/id/OIP.qpWzbcnEVD5hkA0KYlcS7wHaE7?pid=ImgDet&rs=1)
 ***
+
+# Lab Report 3
+
+## Part 1
+
+***Failure-inducing Input***
+```   
+    @Test 
+	public void testReverseInPlace_1() {
+    int[] input1 = { 4,1,2 };
+   
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 2,1,4 }, input1);
+    }
+```
+***Non-Failure-inducing Input***
+```
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+   
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
+***Symptom***
+![cd](media/Lab3Symptom.png)
+
+***Bug***
+> Before:
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+> After:
+```
+  static void reverseInPlace(int[] arr) {
+    int hold; 
+    for(int i = 0; i < (arr.length/2); i += 1) {
+      hold = arr[i];                              // saves the value at the current index to later replace element at opposite end
+      arr[i] = arr[arr.length - i - 1];    
+      arr[arr.length - i - 1]= hold;
+    }
+  }
+```
+The issue with the original code was that when it was reversing the array in place, it was only changing the value of the element the index was currently on, and not replacing the element at the opposite end witht the value of the current element.
+
+## Part 2
+
 # Lab Report 2
 
 ## Part 1
