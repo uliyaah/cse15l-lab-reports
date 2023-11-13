@@ -2,6 +2,29 @@
 ![turtle](https://th.bing.com/th/id/OIP.qpWzbcnEVD5hkA0KYlcS7wHaE7?pid=ImgDet&rs=1)
 
 
+# Lab Report 4
+
+## Keys Pressed
+***Before entering vim***
+```
+git clone git@github.com:uliyaah/lab7.git   <enter>
+
+cd lab7  <enter>
+
+bash test.sh  <enter>
+
+vim ListExamples.java <enter>
+```
+***After entering vim***
+```
+<i> 
+<up><up><up><up><up><up>  (cursor was at the bottom for some reason)
+<right><right><right><right><right><right><right><right> (to get to the space before index1)
+<backspace> <2>   (to change index1 -> index2)
+<esc> (exit insert mode)
+<shift><;>, <wq>, <enter> (now in normal mode, can enter save using <w> and quit using <q>) 
+```
+
 # Lab Report 3
 
 ## Part 1
