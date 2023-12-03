@@ -7,33 +7,32 @@
 ## Keys Pressed
 ***Before entering vim***
 
-*Step 4*
-```
-type: [ssh cs15lfa23ft@ieng6-201.ucsd.edu]  <enter>
-```
+*Step 4: Log into ieng6*
+
+>Type `ssh cs15lfa23ft@ieng6-201.ucsd.edu` and then press `<enter>`
+
 ![cd](media/lab4-step4.png)
 
-*Step 5*
+*Step 5: Clone your fork of the repository from your Github account*
 
-```
-type: [git clone] and then copy-and-paste [git@github.com:uliyaah/lab7.git]   <enter>
-```
+>Type `git clone` and then copy-and-paste `git@github.com:uliyaah/lab7.git` and press `<enter>`
+
 ![cd](media/lab4-step5.png)
 
-*Step 6*
-```
-type: [cd l]  <tab> (to auto-complete for lab7 directory) <enter>
-```
+*Step 6: Run the tests, demonstrating that they fail*
+
+>Type `cd l` and then press `<tab>` to auto-complete lab7 directory name and press `<enter>`
+
 ![cd](media/lab4-step5cd.png)
-```
-type: [bash t] <tab> (to auto-complete path for test.sh file) <enter>
-```
+
+>Type `bash t` and then press `<tab>` to auto-complete test.sh file name and press `<enter>`
+
 ![cd](media/lab4-step6.png)
 
-*Step 7*
-```
-type: [vim ListExamples.java] <enter>
-```
+*Step 7: Edit the code file to fix the failing test*
+
+>Type `vim ListExamples.java` and press `<enter>`
+
 ![cd](media/lab4-step7.png)
 
 ***After entering vim***
@@ -48,17 +47,17 @@ type: [vim ListExamples.java] <enter>
 ```
 
 ***After exiting vim***
-*Step 8*
-```
-<up><up> (to re-use bash test.sh command again went up twice because thats when I last used it)   <enter>
-```
+*Step 8: Run the tests, demonstrating that they now succeed*
+
+>Press `<up><up><enter>` to re-use bash test.sh command again went up twice because thats when I last used it
+
 ![cd](media/lab4-step8.png)
 
-*Step 9*
-```
-type: [git add ListExamples.java]   <enter>
-type: [git commit -m "fixed bugs"]   <enter>
-```
+*Step 9: Commit and push the resulting change to your Github account*
+
+>Type `git add ListExamples.java` and then press `<enter>`
+>Type `git commit -m "fixed bugs"` and then press `<enter>`
+
 ![cd](media/lab4-step9.png)
 
 ***
