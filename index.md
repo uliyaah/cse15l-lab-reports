@@ -16,7 +16,7 @@ type: [ssh cs15lfa23ft@ieng6-201.ucsd.edu]  <enter>
 *Step 5*
 
 ```
-type: [git clone] and then copy-and-paste "git@github.com:uliyaah/lab7.git"   <enter>
+type: [git clone] and then copy-and-paste [git@github.com:uliyaah/lab7.git]   <enter>
 ```
 ![cd](media/lab4-step5.png)
 
