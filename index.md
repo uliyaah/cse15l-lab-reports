@@ -7,23 +7,51 @@
 ## Keys Pressed
 ***Before entering vim***
 ```
-git clone git@github.com:uliyaah/lab7.git   <enter>
-
-cd lab7  <enter>
-
-bash test.sh  <enter>
-
-vim ListExamples.java <enter>
+type: [ssh cs15lfa23ft@ieng6-201.ucsd.edu]  <enter>
 ```
+![cd](media/lab4-step4.png)
+
+```
+type: [git clone] and then copy-and-paste "git@github.com:uliyaah/lab7.git"   <enter>
+```
+![cd](media/lab4-step5.png)
+
+```
+type: [cd l]  <tab> (to auto-complete for lab7 directory) <enter>
+```
+![cd](media/lab4-step5cd.png)
+```
+type: [bash t] <tab> (to auto-complete path for test.sh file) <enter>
+```
+![cd](media/lab4-step6.png)
+
+```
+type: [vim ListExamples.java] <enter>
+```
+![cd](media/lab4-step7.png)
+
 ***After entering vim***
 ```
-<i> 
-<up><up><up><up><up><up>  (cursor was at the bottom for some reason)
+<shift> <g>     (move cursor to the bottom of the file) 
+<up><up><up><up><up><up>  (move cursor to the line with the bug)
 <right><right><right><right><right><right><right><right> (to get to the space before index1)
+<i>     (to enter insert mode)
 <backspace> <2>   (to change index1 -> index2)
 <esc> (exit insert mode)
-<shift><;>, <wq>, <enter> (now in normal mode, can enter save using <w> and quit using <q>) 
+<shift><;> <w> <q> <enter> (now in normal mode, can enter save using <w> and quit using <q>) 
 ```
+
+***After exiting vim***
+```
+<up><up> (to re-use bash test.sh command again went up twice because thats when I last used it)   <enter>
+```
+![cd](media/lab4-step8.png)
+
+```
+type: [git add ListExamples.java]   <enter>
+type: [git commit -m "fixed bugs"]   <enter>
+```
+![cd](media/lab4-step9.png)
 
 ***
 # Lab Report 3
