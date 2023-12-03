@@ -4,7 +4,6 @@
 
 # Lab Report 4
 
-## Keys Pressed
 ***Before entering vim***
 
 *Step 4: Log into ieng6*
