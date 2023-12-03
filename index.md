@@ -52,6 +52,7 @@
 ```
 
 ***After exiting vim***
+
 *Step 8: Run the tests, demonstrating that they now succeed*
 
 >Press `<up><up><enter>` to re-use bash test.sh command again went up twice because thats when I last used it
