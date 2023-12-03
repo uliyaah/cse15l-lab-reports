@@ -6,16 +6,21 @@
 
 ## Keys Pressed
 ***Before entering vim***
+
+*Step 4*
 ```
 type: [ssh cs15lfa23ft@ieng6-201.ucsd.edu]  <enter>
 ```
 ![cd](media/lab4-step4.png)
+
+*Step 5*
 
 ```
 type: [git clone] and then copy-and-paste "git@github.com:uliyaah/lab7.git"   <enter>
 ```
 ![cd](media/lab4-step5.png)
 
+*Step 6*
 ```
 type: [cd l]  <tab> (to auto-complete for lab7 directory) <enter>
 ```
@@ -25,6 +30,7 @@ type: [bash t] <tab> (to auto-complete path for test.sh file) <enter>
 ```
 ![cd](media/lab4-step6.png)
 
+*Step 7*
 ```
 type: [vim ListExamples.java] <enter>
 ```
@@ -42,11 +48,13 @@ type: [vim ListExamples.java] <enter>
 ```
 
 ***After exiting vim***
+*Step 8*
 ```
 <up><up> (to re-use bash test.sh command again went up twice because thats when I last used it)   <enter>
 ```
 ![cd](media/lab4-step8.png)
 
+*Step 9*
 ```
 type: [git add ListExamples.java]   <enter>
 type: [git commit -m "fixed bugs"]   <enter>
